@@ -46,7 +46,7 @@ const HomePage = () => {
 
         {notes.length===0  && <NotesNotFound />}
 
-        {notes.length >0 &&  &&(
+        {notes.length >0 &&  (
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
               {notes.map(note =>(
                 <NoteCard key={note._id} note={note} setNotes={setNotes}/>
