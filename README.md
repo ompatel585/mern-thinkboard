@@ -23,9 +23,7 @@ or
 
 Clone using Git
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/thinkboard.git
 2️⃣ Project Structure
 The project is divided into two main directories:
@@ -38,21 +36,16 @@ backend/ – Express + MongoDB API
 Open two terminal windows:
 
 In the first terminal:
-bash
-Copy
-Edit
 cd backend
 npm install
-npm start
+npm run dev
 In the second terminal:
-bash
-Copy
-Edit
+
 cd frontend
 npm install
-npm start
+npm run dev
 The app will be available on:
-📍 http://localhost:3000/
+📍 http://localhost:5173/
 
 ✏️ Customize
 You are welcome to tweak or extend the project as per your needs!
